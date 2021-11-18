@@ -1,0 +1,11 @@
+<suite name="SuiteExamples">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="suiteExample.DemoOne"/>
+        <methods>
+         <include name="testone"/>
+        </methods>
+      <class name="suiteExample.DemoTwo"/>
+    </classes>
+    </test>
+    </suite>
